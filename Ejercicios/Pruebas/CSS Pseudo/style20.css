@@ -1,0 +1,8 @@
+.prueba::before{
+  content: "<<";
+  color: orange;
+}
+.prueba::after{
+  content: ">>";
+  color: blueviolet;
+}
