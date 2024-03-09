@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style59.css" />
+  </head>
+  <body>
+    <div>Este es un elemento con position: static (por defecto).</div>
+    <div style="position: relative; left: 10px; top: 5px;">
+      Este elemento se ha movido 10px a la derecha y 5px hacia abajo de su posición original.
+    </div>
+    <div style="position: relative; height: 100px; width: 200px; border: 1px solid black;">
+      Contenedor con position: relative
+      <div style="position: absolute; top: 0; right: 0;">
+          Este elemento está en la esquina superior derecha del contenedor.
+      </div>
+    </div>
+    <div style="position: fixed; top: 10px; right: 10px;">
+      Este elemento siempre estará en la esquina superior derecha, sin importar cómo se desplace la página.
+  </div>
+  <div style="position: sticky; top: 0;">
+    Esta barra se "pegará" en la parte superior de la ventana al desplazarse.
+  </div>
+  <div style="height: 2000px;">
+    Contenido largo para permitir el desplazamiento.
+  </div>
+  </body>
+</html>
